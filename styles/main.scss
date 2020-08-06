@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+}
+
+.banner {
+    display: block;
+    width: 100%;
+    background-color: black;
+}
+
+.banner-image {
+    display: block;
+    width: 100%;
+    height: inherit;
+    object-fit: cover;
+}
