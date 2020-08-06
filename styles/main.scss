@@ -1,5 +1,10 @@
 body {
     margin: 0;
+    padding: 0;
+}
+
+.row {
+    padding: 20px 0;
 }
 
 .banner {
@@ -14,3 +19,17 @@ body {
     height: inherit;
     object-fit: cover;
 }
+
+.about-us {
+
+    padding: 0;
+    img {
+        display: block;
+        width: 100%;
+        height: inherit;
+        object-fit: cover;
+        padding: 0;
+    };
+
+}
+
