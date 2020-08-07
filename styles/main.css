@@ -1,24 +1,32 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: "Amatic SC", cursive;
 }
 
-.row {
-  padding: 20px 0;
+body h2 {
+  font-weight: 700;
 }
 
 .banner {
   display: block;
   width: 100%;
   background-color: black;
-}
-
-.banner-image {
-  display: block;
-  width: 100%;
-  height: inherit;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.banner img {
+  display: block;
+  width: 100%;
+}
+
+.row {
+  padding: 20px 0;
+}
+
+section {
+  margin-top: 20px;
 }
 
 .about-us {
@@ -31,20 +39,20 @@ body {
   height: inherit;
   -o-object-fit: cover;
      object-fit: cover;
-  padding: 0;
+  padding: 15px 0;
 }
 
-.feature-icon {
+.features .feature-icon {
   background-color: black;
   border-radius: 50%;
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
 }
 
-.feature-icon img {
-  width: 60px;
-  height: 60px;
-  padding: 10px;
+.features .feature-icon img {
+  width: 80px;
+  height: 80px;
+  padding: 20px;
   color: white;
   -webkit-filter: invert(100%);
           filter: invert(100%);
