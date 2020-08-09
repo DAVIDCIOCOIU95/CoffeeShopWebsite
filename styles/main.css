@@ -133,13 +133,47 @@ body .the-shop .btn-carousel:hover {
   color: white;
 }
 
-body .contact {
+body .social {
   padding-bottom: 30px;
 }
 
-body .contact a {
+body .social a {
   text-decoration: none;
   color: black;
+}
+
+body .social label {
+  padding: 0;
+  padding-top: 15px;
+}
+
+body .social input {
+  margin-bottom: 15px;
+}
+
+body .social .social-icon {
+  background-color: #d1d1d1;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+body .social .social-icon img {
+  width: 60px;
+  height: 60px;
+  color: white;
+  padding: 18px;
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+}
+
+body .social .social-icon:hover {
+  background-color: black;
+}
+
+body .contact {
+  padding-bottom: 30px;
 }
 
 body .contact label {
@@ -149,27 +183,6 @@ body .contact label {
 
 body .contact input {
   margin-bottom: 15px;
-}
-
-body .contact .social-icon {
-  background-color: #d1d1d1;
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  margin-bottom: 20px;
-}
-
-body .contact .social-icon img {
-  width: 60px;
-  height: 60px;
-  color: white;
-  padding: 18px;
-  -webkit-filter: invert(100%);
-          filter: invert(100%);
-}
-
-body .contact .social-icon:hover {
-  background-color: black;
 }
 
 body .end-page {

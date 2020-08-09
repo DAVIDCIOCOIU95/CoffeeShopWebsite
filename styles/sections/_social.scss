@@ -1,0 +1,31 @@
+.social {
+    padding-bottom: 30px;
+    a {
+      text-decoration: none;
+      color: black;
+    }
+    label {
+      padding: 0;
+      padding-top: 15px;;
+    }
+    input {
+      margin-bottom: 15px;;
+    }
+      .social-icon {
+          background-color: rgb(209, 209, 209);
+          border-radius: 50%;
+          width: 60px;
+          height: 60px;
+          margin-bottom: 20px;
+          img {
+            width: 60px;
+            height: 60px;
+            color: white;
+            padding: 18px;
+            filter: invert(100%);
+          }
+          &:hover {
+            background-color: black;
+          }
+      }
+}
