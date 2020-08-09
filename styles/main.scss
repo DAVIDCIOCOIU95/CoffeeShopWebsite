@@ -47,8 +47,7 @@ body {
   color: rgb(102, 102, 102);
   padding: 10px;
   &:hover {
-    border-radius: 50%;
-    border: 1px solid rgb(102, 102, 102);
+    text-decoration: underline;
   }
 }
 // Sections

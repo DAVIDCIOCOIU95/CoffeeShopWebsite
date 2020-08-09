@@ -60,8 +60,7 @@ body .nav-span {
 }
 
 body .nav-span:hover {
-  border-radius: 50%;
-  border: 1px solid #666666;
+  text-decoration: underline;
 }
 
 body section {
