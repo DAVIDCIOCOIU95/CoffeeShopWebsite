@@ -163,6 +163,10 @@ body .contact .social-icon img {
           filter: invert(100%);
 }
 
+body .contact .social-icon:hover {
+  background-color: black;
+}
+
 body .end-page {
   background-color: black;
   color: white;

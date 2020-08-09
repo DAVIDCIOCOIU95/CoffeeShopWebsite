@@ -24,5 +24,8 @@
           padding: 18px;
           filter: invert(100%);
         }
+        &:hover {
+          background-color: black;
+        }
     }
 }
