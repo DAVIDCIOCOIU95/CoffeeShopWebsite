@@ -2,14 +2,18 @@
   .feature-icon {
     background-color: black;
     border-radius: 50%;
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
     img {
-      width: 80px;
-      height: 80px;
+      width: 100px;
+      height: 100px;
       padding: 20px;
       color: white;
       filter: invert(100%);
     }
+  }
+  .feature {
+    padding: 40px auto;
   }
 }

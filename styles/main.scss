@@ -2,7 +2,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Volkhov", serif;
+  font-family: 'Gayathri', sans-serif;
   font-size: regular;
 
   h2 {
@@ -11,21 +11,21 @@ body {
 
   h3 {
   }
-}
+  
+  .logo-img {
+    object-fit: cover;
+    display: inline;
+    height: 25px;
+    margin-right: 5px;
+    margin-bottom: 11px;
+    transform: rotate(20deg);
+  }  
 
-.logo-img {
-  object-fit: cover;
-  display: inline;
-  height: 20px;
-  margin-right: 5px;
-  margin-bottom: 11px;
-  transform: rotate(20deg);
-}
+  .logo-txt {
+    display: inline;
+  }
 
-.logo-txt {
-  display: inline;
-}
-
+  
 @import "./sections/header";
 
 .row {
@@ -44,9 +44,15 @@ body {
 // Sections
 section {
   margin-top: 20px;
+  padding: 16px;
 }
 
 @import "./sections/welcome";
 @import "./sections/about-us";
 @import "./sections/features";
 @import "./sections/the-shop";
+
+}
+
+
+

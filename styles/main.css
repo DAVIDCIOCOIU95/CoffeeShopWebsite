@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Volkhov", serif;
+  font-family: 'Gayathri', sans-serif;
   font-size: regular;
 }
 
@@ -9,22 +9,22 @@ body h2 {
   font-weight: 700;
 }
 
-.logo-img {
+body .logo-img {
   -o-object-fit: cover;
      object-fit: cover;
   display: inline;
-  height: 20px;
+  height: 25px;
   margin-right: 5px;
   margin-bottom: 11px;
   -webkit-transform: rotate(20deg);
           transform: rotate(20deg);
 }
 
-.logo-txt {
+body .logo-txt {
   display: inline;
 }
 
-.banner {
+body .banner {
   display: block;
   width: 100%;
   background-color: black;
@@ -32,35 +32,36 @@ body h2 {
      object-fit: cover;
 }
 
-.banner img {
+body .banner img {
   display: block;
   width: 100%;
 }
 
-.row {
+body .row {
   padding: 20px 0;
 }
 
-.nav-span {
+body .nav-span {
   color: #666666;
   padding: 10px;
 }
 
-.nav-span:hover {
+body .nav-span:hover {
   border-radius: 50%;
   background-color: #666666;
   color: white !important;
 }
 
-section {
+body section {
   margin-top: 20px;
+  padding: 16px;
 }
 
-.about-us {
+body .about-us {
   padding: 0;
 }
 
-.about-us img {
+body .about-us img {
   display: block;
   width: 100%;
   height: inherit;
@@ -69,23 +70,28 @@ section {
   padding: 15px 0;
 }
 
-.features .feature-icon {
+body .features .feature-icon {
   background-color: black;
   border-radius: 50%;
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
 }
 
-.features .feature-icon img {
-  width: 80px;
-  height: 80px;
+body .features .feature-icon img {
+  width: 100px;
+  height: 100px;
   padding: 20px;
   color: white;
   -webkit-filter: invert(100%);
           filter: invert(100%);
 }
 
-.the-shop img {
+body .features .feature {
+  padding: 40px auto;
+}
+
+body .the-shop img {
   width: auto;
   height: 90vh;
   max-height: 90vh;
@@ -93,13 +99,13 @@ section {
      object-fit: cover;
 }
 
-.the-shop .btn-carousel {
+body .the-shop .btn-carousel {
   background: rgba(255, 255, 255, 0.8);
   border: rgba(255, 255, 255, 0.8);
   color: black;
 }
 
-.the-shop .btn-carousel:hover {
+body .the-shop .btn-carousel:hover {
   background-color: rgba(0, 0, 0, 0.8);
   border: rgba(0, 0, 0, 0.8);
   color: white;
