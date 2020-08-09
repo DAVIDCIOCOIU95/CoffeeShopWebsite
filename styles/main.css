@@ -15,7 +15,11 @@ body h3 {
 
 body hr {
   border: .5px solid black;
-  width: 40%;
+  width: 10%;
+}
+
+body .container {
+  margin: 0 !important;
 }
 
 body .logo-img {
