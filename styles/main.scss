@@ -1,33 +1,52 @@
-@import './mixins';
+@import "./mixins";
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Volkhov', serif;
+  font-family: "Volkhov", serif;
+  font-size: regular;
 
   h2 {
     font-weight: 700;
   }
-  
+
   h3 {
-    font-weight: medium;
   }
 }
 
+.logo-img {
+  object-fit: cover;
+  display: inline;
+  height: 20px;
+  margin-right: 5px;
+  margin-bottom: 11px;
+  transform: rotate(20deg);
+}
 
-@import './sections/header';
+.logo-txt {
+  display: inline;
+}
+
+@import "./sections/header";
 
 .row {
   padding: 20px 0;
 }
 
+.nav-span {
+  color: rgb(102, 102, 102);
+  padding: 10px;
+  &:hover {
+    border-radius: 50%;
+    background-color: rgb(102, 102, 102);
+    color: white !important;
+  }
+}
 // Sections
 section {
   margin-top: 20px;
 }
 
-
-@import './sections/welcome';
-@import './sections/about-us';
-@import './sections/features';
-@import './sections/the-shop';
-
+@import "./sections/welcome";
+@import "./sections/about-us";
+@import "./sections/features";
+@import "./sections/the-shop";

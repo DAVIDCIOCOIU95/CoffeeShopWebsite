@@ -1,15 +1,27 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Volkhov', serif;
+  font-family: "Volkhov", serif;
+  font-size: regular;
 }
 
 body h2 {
   font-weight: 700;
 }
 
-body h3 {
-  font-weight: medium;
+.logo-img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: inline;
+  height: 20px;
+  margin-right: 5px;
+  margin-bottom: 11px;
+  -webkit-transform: rotate(20deg);
+          transform: rotate(20deg);
+}
+
+.logo-txt {
+  display: inline;
 }
 
 .banner {
@@ -27,6 +39,17 @@ body h3 {
 
 .row {
   padding: 20px 0;
+}
+
+.nav-span {
+  color: #666666;
+  padding: 10px;
+}
+
+.nav-span:hover {
+  border-radius: 50%;
+  background-color: #666666;
+  color: white !important;
 }
 
 section {
