@@ -128,6 +128,15 @@ body .the-shop .btn-carousel:hover {
   color: white;
 }
 
+body .contact {
+  padding-bottom: 30px;
+}
+
+body .contact a {
+  text-decoration: none;
+  color: black;
+}
+
 body .contact label {
   padding: 0;
   padding-top: 15px;
