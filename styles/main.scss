@@ -10,11 +10,13 @@ body {
   }
 
   h3 {
+    font-weight: 700;
   }
+
   
   .logo-img {
     object-fit: cover;
-    display: inline;
+    display: relative;
     height: 25px;
     margin-right: 5px;
     margin-bottom: 11px;
@@ -37,21 +39,21 @@ body {
   padding: 10px;
   &:hover {
     border-radius: 50%;
-    background-color: rgb(102, 102, 102);
-    color: white !important;
+    border: 1px solid rgb(102, 102, 102);
   }
 }
 // Sections
 section {
-  margin-top: 20px;
-  padding: 16px;
+  padding: 30px 16px;
+  padding-bottom: 0;
 }
 
 @import "./sections/welcome";
 @import "./sections/about-us";
 @import "./sections/features";
 @import "./sections/the-shop";
-
+@import "./sections/contact";
+@import "./sections/end-page";
 }
 
 

@@ -9,10 +9,14 @@ body h2 {
   font-weight: 700;
 }
 
+body h3 {
+  font-weight: 700;
+}
+
 body .logo-img {
   -o-object-fit: cover;
      object-fit: cover;
-  display: inline;
+  display: relative;
   height: 25px;
   margin-right: 5px;
   margin-bottom: 11px;
@@ -48,17 +52,16 @@ body .nav-span {
 
 body .nav-span:hover {
   border-radius: 50%;
-  background-color: #666666;
-  color: white !important;
+  border: 1px solid #666666;
 }
 
 body section {
-  margin-top: 20px;
-  padding: 16px;
+  padding: 30px 16px;
+  padding-bottom: 0;
 }
 
-body .about-us {
-  padding: 0;
+body .welcome p {
+  margin: 0;
 }
 
 body .about-us img {
@@ -67,28 +70,41 @@ body .about-us img {
   height: inherit;
   -o-object-fit: cover;
      object-fit: cover;
-  padding: 15px 0;
+  padding: 0;
+}
+
+body .about-us .row div {
+  padding: 15px 15px;
+}
+
+body .features p {
+  margin: 0;
 }
 
 body .features .feature-icon {
   background-color: black;
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   margin-bottom: 20px;
 }
 
 body .features .feature-icon img {
-  width: 100px;
-  height: 100px;
-  padding: 20px;
+  width: 150px;
+  height: 150px;
+  padding: 30px;
   color: white;
   -webkit-filter: invert(100%);
           filter: invert(100%);
 }
 
 body .features .feature {
-  padding: 40px auto;
+  padding: 40px 40px;
+}
+
+body .the-shop .carousel {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 body .the-shop img {
@@ -97,6 +113,7 @@ body .the-shop img {
   max-height: 90vh;
   -o-object-fit: cover;
      object-fit: cover;
+  padding: 0 15px;
 }
 
 body .the-shop .btn-carousel {
@@ -109,5 +126,41 @@ body .the-shop .btn-carousel:hover {
   background-color: rgba(0, 0, 0, 0.8);
   border: rgba(0, 0, 0, 0.8);
   color: white;
+}
+
+body .contact label {
+  padding: 0;
+  padding-top: 15px;
+}
+
+body .contact input {
+  margin-bottom: 15px;
+}
+
+body .contact .social-icon {
+  background-color: #d1d1d1;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+body .contact .social-icon img {
+  width: 60px;
+  height: 60px;
+  color: white;
+  padding: 18px;
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+}
+
+body .end-page {
+  background-color: black;
+  color: white;
+}
+
+body .end-page p {
+  margin: 0;
+  padding: 15px;
 }
 /*# sourceMappingURL=main.css.map */
