@@ -34,17 +34,66 @@ body .logo-txt {
   display: inline;
 }
 
-body .banner {
-  display: block;
+body .header-banner {
+  position: relative;
+  display: inline-block;
   width: 100%;
   background-color: black;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-body .banner img {
-  display: block;
+body .header-banner img {
   width: 100%;
+}
+
+body .header-banner .caption-img {
+  position: absolute;
+  width: 40%;
+  top: 45%;
+  left: 60%;
+}
+
+body .header-banner .caption-btn {
+  position: absolute;
+  top: 70%;
+  left: 68%;
+}
+
+body .header-banner .caption-cup {
+  position: absolute;
+  top: 60%;
+  left: 25%;
+  width: 14%;
+  -webkit-transform: rotate(-26deg);
+          transform: rotate(-26deg);
+}
+
+body .header-banner .btn-cust {
+  border-style: solid;
+  border-color: white;
+  color: black;
+  background-color: white;
+  font-weight: bold;
+}
+
+body .header-banner .btn-cust:hover {
+  background-color: rgba(255, 255, 255, 0.13);
+  color: white;
+}
+
+body .header-banner h3 {
+  color: white;
+  font-size: 2rem;
+}
+
+@media screen and (min-width: 700px) {
+  body .header-banner h3 {
+    font-size: 4rem;
+  }
+  body .header-banner .btn-cust {
+    font-size: 1.5rem;
+  }
 }
 
 body .row {
@@ -157,7 +206,7 @@ body .social input {
 }
 
 body .social .social-icon {
-  background-color: #d1d1d1;
+  background-color: #f70324;
   border-radius: 50%;
   width: 60px;
   height: 60px;
