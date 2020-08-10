@@ -49,15 +49,15 @@ body .header-banner img {
 
 body .header-banner .caption-img {
   position: absolute;
-  width: 40%;
-  top: 45%;
-  left: 60%;
+  width: 45%;
+  top: 40%;
+  left: 50%;
 }
 
 body .header-banner .caption-btn {
   position: absolute;
   top: 70%;
-  left: 68%;
+  left: 55%;
 }
 
 body .header-banner .caption-cup {
