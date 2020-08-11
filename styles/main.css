@@ -35,51 +35,14 @@ body .logo-txt {
 }
 
 body .header-banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   position: relative;
-  display: inline-block;
   width: 100%;
-  background-color: black;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-body .header-banner img {
-  width: 100%;
-}
-
-body .header-banner .caption-img {
-  position: absolute;
-  width: 45%;
-  top: 40%;
-  left: 50%;
-}
-
-body .header-banner .caption-btn {
-  position: absolute;
-  top: 70%;
-  left: 55%;
-}
-
-body .header-banner .caption-cup {
-  position: absolute;
-  top: 60%;
-  left: 25%;
-  width: 14%;
-  -webkit-transform: rotate(-26deg);
-          transform: rotate(-26deg);
-}
-
-body .header-banner .btn-cust {
-  border-style: solid;
-  border-color: white;
-  color: black;
-  background-color: white;
-  font-weight: bold;
-}
-
-body .header-banner .btn-cust:hover {
-  background-color: rgba(255, 255, 255, 0.13);
-  color: white;
+  height: 300px;
+  background-image: url("https://images.pexels.com/photos/2074111/pexels-photo-2074111.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
 }
 
 body .header-banner h3 {
@@ -87,12 +50,59 @@ body .header-banner h3 {
   font-size: 2rem;
 }
 
-@media screen and (min-width: 700px) {
-  body .header-banner h3 {
-    font-size: 4rem;
+body .introduction {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .caption-txt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 150px;
+}
+
+body .caption-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .btn-cust {
+  border-style: solid;
+  border-color: white;
+  color: black;
+  background-color: white;
+  font-weight: bold;
+}
+
+body .btn-cust:hover {
+  background-color: rgba(255, 255, 255, 0.13);
+  color: white;
+}
+
+@media screen and (min-width: 992px) {
+  body .header-banner {
+    height: 400px;
   }
-  body .header-banner .btn-cust {
-    font-size: 1.5rem;
+  body .caption-txt {
+    margin-top: 260px;
   }
 }
 
