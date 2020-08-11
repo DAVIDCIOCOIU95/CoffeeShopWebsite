@@ -18,10 +18,6 @@ body hr {
   width: 10%;
 }
 
-body .container {
-  margin: 0 !important;
-}
-
 body .logo-img {
   -o-object-fit: cover;
      object-fit: cover;
@@ -50,7 +46,7 @@ body .header-banner h3 {
   font-size: 2rem;
 }
 
-body .introduction {
+body .header-banner .introduction {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
@@ -59,7 +55,7 @@ body .introduction {
           align-items: center;
 }
 
-body .caption-txt {
+body .header-banner .caption-txt {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -72,7 +68,7 @@ body .caption-txt {
   margin-top: 150px;
 }
 
-body .caption-btn {
+body .header-banner .caption-btn {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -84,7 +80,7 @@ body .caption-btn {
           justify-content: center;
 }
 
-body .btn-cust {
+body .header-banner .btn-cust {
   border-style: solid;
   border-color: white;
   color: black;
@@ -92,7 +88,7 @@ body .btn-cust {
   font-weight: bold;
 }
 
-body .btn-cust:hover {
+body .header-banner .btn-cust:hover {
   background-color: rgba(255, 255, 255, 0.13);
   color: white;
 }
