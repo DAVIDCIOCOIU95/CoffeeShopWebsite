@@ -116,7 +116,7 @@ body .nav-span {
 }
 
 body .nav-span:hover {
-  text-decoration: underline;
+  color: #bd0019;
 }
 
 body section {
@@ -216,7 +216,7 @@ body .social input {
 }
 
 body .social .social-icon {
-  background-color: #f70324;
+  background-color: #bd0019;
   border-radius: 50%;
   width: 60px;
   height: 60px;
